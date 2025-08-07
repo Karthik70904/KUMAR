@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kumar RajA | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafc;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      animation: fadeInUp 0.8s ease-in-out;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 6px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .project {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      margin-bottom: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .project p {
+      color: #555;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .container {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kumar RajA</h1>
+    <p>B.Tech CSE | Web Developer | AI Enthusiast</p>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a final-year B.Tech Computer Science student with a deep passion for building real-world tech solutions. I specialize in full-stack web development and enjoy exploring AI and automation. I thrive on turning complex ideas into elegant, user-friendly applications.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, C, JavaScript</li>
+        <li><strong>Frontend:</strong> HTML, CSS, React.js</li>
+        <li><strong>Backend:</strong> Node.js, Express</li>
+        <li><strong>Tools & Platforms:</strong> Git, Firebase, VS Code</li>
+        <li><strong>AI/ML:</strong> NumPy, Pandas, Scikit-learn</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>📘 Student Assignment Helper</h3>
+        <p>
+          An AI-powered web application that reads assignment files (PDFs/docs), generates contextual answers using NLP, and paraphrases responses for originality.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>📚 Learners Library</h3>
+        <p>
+          A collaborative knowledge-sharing platform where students can upload, search, and download categorized study materials based on tags and subjects.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>🌊 Plastic Detection Using Drones</h3>
+        <p>
+          A deep learning solution using OpenCV and image segmentation to detect plastic waste in oceanic drone footage for environmental monitoring.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:kumarraja@example.com">kumarraja@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+      <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Kumar RajA. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
